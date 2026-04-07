@@ -1,4 +1,4 @@
-
+<img width="1018" height="1014" alt="code89" src="https://github.com/user-attachments/assets/e47f10c1-3fc6-4950-b259-889bc1e44d7e" />
 1.5.4 Pertanyaan Praktikum:
 
 1. Pada kondisi apa program masuk ke blok if? Program akan mengeksekusi instruksi di dalam blok if apabila nilai dari variabel timeDelay sudah mencapai angka kurang dari atau sama dengan 100.
@@ -69,4 +69,4 @@ void loop() {
   delay(1000); // Jeda 1 detik
 }
 
-<img width="1018" height="1014" alt="code89" src="https://github.com/user-attachments/assets/e47f10c1-3fc6-4950-b259-889bc1e44d7e" />
+
