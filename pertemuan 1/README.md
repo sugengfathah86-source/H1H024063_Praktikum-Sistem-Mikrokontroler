@@ -1,4 +1,5 @@
-<img width="1018" height="1014" alt="code89" src="https://github.com/user-attachments/assets/e47f10c1-3fc6-4950-b259-889bc1e44d7e" />
+<img width="1280" height="568" alt="Fabulous Blad-Habbi" src="https://github.com/user-attachments/assets/47417940-5a6c-4596-bc0b-f3be590c9f2e" />
+
 1.5.4 Pertanyaan Praktikum:
 
 1. Pada kondisi apa program masuk ke blok if? Program akan mengeksekusi instruksi di dalam blok if apabila nilai dari variabel timeDelay sudah mencapai angka kurang dari atau sama dengan 100.
