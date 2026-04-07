@@ -11,31 +11,4 @@
 Program ini memodifikasi alur kedipan LED agar tidak langsung melakukan reset ke kondisi lambat saat mencapai kecepatan maksimal, melainkan mengalami transisi melambat secara bertahap (Cepat -> Sedang -> Mati/Lambat).
 
 
-int timer = 100;           
-// delay. Semakin tinggi angkanya, 
-semakin lambat waktunya. 
-void setup() { 
-// gunakan loop for untuk menginisialisasi setiap pin sebagai 
-output: 
-for (int ledPin = 2; ledPin < 8; ledPin++) { 
-pinMode(ledPin, OUTPUT); 
-} 
-} 
-void loop() { 
-// looping dari pin rendah ke tinggi 
-for (int ledPin = 2; ledPin < 8; ledPin++) { 
-// hidupkan LED pin nya: 
-digitalWrite(ledPin, HIGH); 
-delay(timer); 
-// matikan pin LED nya: 
-digitalWrite(ledPin, LOW); 
-} 
-// looping dari pin yang tinggi ke yang rendah 
-for (int ledPin = 7; ledPin >= 2; ledPin--) { 
-// menghidupkan pin: 
-digitalWrite(ledPin, HIGH); 
-delay(timer); 
-// mematikan pin: 
-digitalWrite(ledPin, LOW); 
-} 
-}
+<img width="1018" height="1014" alt="code89" src="https://github.com/user-attachments/assets/e47f10c1-3fc6-4950-b259-889bc1e44d7e" />
