@@ -33,8 +33,7 @@ Simpan sketch Compile program Upload ke Arduino Amati output pada Serial Monitor
 Jika berhasil, tulisan “Task4 berjalan” akan muncul bersamaan dengan task-task lainnya.
 
 Modifikasilah program dengan menambah sensor (misalnya potensiometer), lalu gunakan nilainya untuk mengontrol kecepatan LED! Bagaimana hasilnya?
-https://www.tinkercad.com/things/5GwbChdfdv5-percobaan-5a-multitasking?sharecode=WtqSrJaATrJbmdbtPKkaf8ZoOG9-2tbyAdIXOIrHCJ4
-
+https://www.tinkercad.com/things/lBQYfFgFTH4/editel?sharecode=xx0aAwRz3jXh-b0IS2yzY640n6J5WR0aGPGzudHAJEE
 Hasil percobaan menunjukkan bahwa:
 
 Saat potensiometer diputar ke nilai kecil, LED berkedip lebih cepat Saat potensiometer diputar ke nilai besar, LED berkedip lebih lambat Nilai delay tampil pada Serial Monitor secara real-time
@@ -78,7 +77,7 @@ menggunakan variabel global tanpa proteksi, beberapa task mengakses resource yan
 Karena itu, penggunaan queue pada FreeRTOS merupakan solusi yang aman untuk komunikasi antar-task.
 
 Modifikasilah program dengan menggunakan sensor DHT sesungguhnya sehingga informasi yang ditampilkan dinamis. Bagaimana hasilnya?
-https://wokwi.com/projects/463146960431986689
+https://wokwi.com/projects/463719521145724929
 
 Hasil percobaan menunjukkan bahwa:
 
